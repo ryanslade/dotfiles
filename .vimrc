@@ -13,3 +13,11 @@ set shiftwidth=4
 
 filetype plugin on
 
+"Remapping
+nnoremap ; :
+:imap ;; <Esc>
+
+set ttyfast
+set relativenumber
+set encoding=utf-8
+autocmd BufNewFile,BufRead *.json set ft=javascript
